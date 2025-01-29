@@ -36,7 +36,3 @@ steps:
     pytest
   displayName: 'pytest'
   condition: 
-
-- script: |
-    print("Hello Paulien")
-  displayName: 'print Hello Paulien'
