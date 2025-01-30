@@ -36,3 +36,7 @@ steps:
     pytest
   displayName: 'pytest'
   condition: 
+- task: PythonScript@0
+  inputs:
+    scriptSource: 'inline'
+    script: 'print("Hello Paulien")'
